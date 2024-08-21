@@ -22,7 +22,7 @@ body{
 }
 
 .principal{
-    margin-top: 220px;
+    margin-top: 150px;
     display: inline-flex;
 }
 
@@ -42,7 +42,10 @@ body{
     margin-left: 5px;
 }
 
-
+.ayuda{
+    margin-top: -80px;
+    margin-left: -80px;
+}
 .asistencia{
     right: 0;
     cursor: pointer;
@@ -60,4 +63,32 @@ body{
     color: white;
     font-size: 15px;
     margin-bottom: 0px;
+}
+
+
+.menu{
+    margin-top: 35px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.menu_h ul{
+    display: inline-flex;
+    padding-left: 5px;
+    padding: 5px;
+}
+
+
+.menu_h ul li{
+    list-style: none;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.menu_h ul li:hover{
+    color: green;
+    cursor: pointer;
 }
