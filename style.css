@@ -7,7 +7,7 @@ body{
 }
 
 .descripcion{
-    
+    margin-top: -20px;
     margin-left: 100px;
 }
 
@@ -29,11 +29,11 @@ body{
 
 .imagen img{
     
-    width: 580px;
+    width: 590px;
     background-color: black;
-    height: 480px;
-    margin-left: 80px;
-    margin-top: -80px;
+    height: 500px;
+    margin-left: 115px;
+    margin-top: -92px;
     border-radius: 20px;
 
 }
@@ -47,14 +47,17 @@ body{
     margin-left: -80px;
 }
 .asistencia{
+    position: relative;
+    margin-right: 40px;
+    margin-top: 20px;
     right: 0;
     cursor: pointer;
     position: fixed;
-    width: 200px;
+    width: 220px;
     background-color:  #5CC414;
     display: flex;
     align-items: center;
-    height: 80px;
+    height: 60px;
     border: 0;
     border-radius: 80px;
 }
@@ -62,6 +65,7 @@ body{
 .asistencia span{
     color: white;
     font-size: 15px;
+    font-weight: bold;
     margin-bottom: 0px;
 }
 
@@ -91,4 +95,27 @@ body{
 .menu_h ul li:hover{
     color: green;
     cursor: pointer;
+}
+
+
+.opciones{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tarifas{
+    border-radius: 20px;
+    height: 130px;
+    width: 170px;
+    background-color: blue;
+    opacity: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.tarifas p{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 22px;
 }
